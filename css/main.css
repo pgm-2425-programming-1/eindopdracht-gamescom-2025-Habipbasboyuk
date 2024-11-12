@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(to right, hsl(217, 24%, 17%), hsl(270, 15%, 10%));
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+
+#navigation {
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#navigation img {
+    margin-right: 70%;
+}
+
+#navigation a{
+    color: white;
+    margin-right: 2rem;
+    text-decoration: none;
+
+}
+
+
+#countdown {
+    background: linear-gradient(to right, hsl(220, 11%, 11%), hsl(270, 5%, 9%));
+    height: 6rem;
+    align-items: center;
+}
+
+#countdown h1 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+
+#countdown p {
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+
+
+
+
+
+#lineup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+#lineup img {
+    width: 30rem;
+    height: 20rem;
+
+
+}
+
+#lineup div{ 
+    cursor: pointer;
+    background-color: hsl(220, 11%, 11%);
+    margin: 0.5rem;
+    border-radius: 0px 0px 15px 15px;
+    max-width: 30rem;
+    text-align: left;
+    
+
+}
+
+
+
+
+#lineup h2 {
+    font-size: 3.2rem;
+    flex-wrap: wrap;
+    line-height: 1;
+    padding-bottom: 0;
+    margin: 0;
+    padding-left: 1rem;
+    
+}
+
+#lineup p {
+    line-height: 0;
+    padding-left: 1rem;
+}
+
+
+#eventDetail {
+    position: fixed;
+    color: black;
+    background-color: white;
+    left: 50%;
+    height: 100%;
+    max-width: 100%;
+}
+
+#eventDetail div{
+    display: flex;
+    margin-left: 30%;
+    
+}
+
+#eventDetail h2{
+    text-align: start;
+    flex-wrap: wrap;
+    max-width: 90%;
+    
+}
+
+#eventDetail div a{
+    
+    margin-left: 1rem;
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+#eventDetail div img {
+    width: 5rem;
+    height: 5rem;
+}
+#eventDetail p{
+    text-align: start;
+}
+
+#eventDetail img{
+    width: 30rem;
+    height: 20rem;
+    float: left;
+    margin: 1rem;
+}
+
+#eventDetail button {
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(270, 15%, 10%);
+}
+
+
+
